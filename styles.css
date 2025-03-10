@@ -1,0 +1,99 @@
+/* Общие стили */
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* Светло-серый фон */
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    color: #34495e;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #250dfa;
+}
+
+h4 {
+    font-size: 1.25em;
+    margin-top: 20px;
+    color: #250dfa;
+}
+
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+img {
+    border: 2px solid #555; /* Светло-черная (темно-серая) рамка */
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Белый фон внутри рамки */
+}
+
+img:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для контактной информации */
+.contact-info {
+    background-color: #e0e0e0; /* Светло-серый фон */
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Стили для разделов с модулями */
+.module {
+    background-color: #fff; /* Белый фон */
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.module h3 {
+    margin-top: 0;
+}
+
+/* Стили для итоговой работы */
+.final-work {
+    background-color: #e8e8e8; /* Светло-серый фон */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.final-work img {
+    display: block;
+    margin: 10px auto;
+}
